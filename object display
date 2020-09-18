@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Display Object</h2>
+
+<p id="demo"></p>
+
+<script>
+var person = {name:"John", age:30, city:"New York"};
+
+document.getElementById("demo").innerHTML = person;
+</script>
+
+</body>
+</html>
